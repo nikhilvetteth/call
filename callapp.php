@@ -1,3 +1,4 @@
+echo "test1";
 $link = mysql_connect('mynikhil.mysql.database.azure.com', 'nikhil@mynikhil', '1!qazxcnMS');
 if (!$link) {
     die('Could not connect: ' . mysql_error());
